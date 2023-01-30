@@ -1,7 +1,7 @@
 import scrapy
 import json
 
-class WikipediaSpider: #Something is missing here. What exactly?
+class WikipediaSpider(scrapy.Spider):
     name = "wikipedia"
 
     start_urls = ["https://en.wikipedia.org/wiki/List_of_French_artists"]
